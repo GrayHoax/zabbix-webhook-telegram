@@ -5,8 +5,9 @@
 Сбербанк: 55767899
 
 Для работы требуется доступ с сервера Zabbix до адреса:
-`ping api.telegram.org
-telnet api.telegram.org 443`
+`ping api.telegram.org`
+
+`telnet api.telegram.org 443`
 
 # Установка
 
