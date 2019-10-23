@@ -1,6 +1,8 @@
 Контакты: grayhoax[at]grayhoax.ru
+
 Телеграм: [@grayhoax](https://t.me/grayhoax)
-Сбербанк: 855767899
+
+Сбербанк: 55767899
 
 Для работы требуется доступ с сервера Zabbix до адреса:
 `ping api.telegram.org
