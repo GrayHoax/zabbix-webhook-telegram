@@ -34,7 +34,7 @@
 	zbx_Params = JSON.parse(value); // Парсинг входящих от Zabbix данных&#13;
 	var result = {'chat_id': zbx_Params.chat_id}; // Определение объекта возвращаемых данных (возвращается идентификатор пользователя)&#13;
 	&#13;
-	zbx_Params.message = zbx_Params.message.replace(/U\+([\d\w]{4,5})/gi, function(match, grp) { // Работа с Эмодзи&#13;
+	zbx_Params.message = zbx_Params.message.replace(/\\U\+([\d\w]{4,5})/gi, function(match, grp) { // Работа с Эмодзи&#13;
         return String.fromCharCode(parseInt(grp, 16)); // Преобразование из кода вида \u2601 в символ multibyte&#13;
     });&#13;
 	&#13;
